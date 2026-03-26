@@ -1,3 +1,4 @@
+'''
 *#if a month season*
 
 month = input("Enter month name: ")
@@ -168,3 +169,4 @@ if temp>=100:
 
 else:
     print("Not Boiled Water")
+    '''
