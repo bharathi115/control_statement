@@ -114,34 +114,34 @@ print("Squares of digits:", end=" ")
 
 while t > 0:
     d= t % 10
-    print(d ** 2, end=" ")
+    print(d ** 2, end=" ")  
     t = t // 10
-#sum of  n odd  and numbers
-    n = int(input("Enter Value: "))
+#sum of odd  and even numbers
+    n = int(input("Enter Value: ")) #n=5
 
-# Sum of first n odd numbers
+# Sum of odd numbers
 i = 1
 total = 0
 odd = 0
 
-while total < n:
+while total < n:    #0+=1=1  1+=2 = 3 0+=1 = 1
     odd += i
     i += 2
     total += 1
 
-print("Sum of first odd numbers:", odd)
+print("Sum of odd numbers:", odd)
 
-# Sum of first n even numbers
+# Sum of even numbers
 i = 2
 total = 0
 even = 0
 
-while total < n:
+while total < n:   #0+=2 = 2  2+=2= 4  
     even += i
     i += 2
     total += 1
 
-print("Sum of first even numbers:", even)
+print("Sum of even numbers:", even)
 
 
 #factorial number
