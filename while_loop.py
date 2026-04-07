@@ -124,7 +124,7 @@ i = 1
 total = 0
 odd = 0
 
-while total < n:    #0+=1=1  1+=2 = 3 0+=1 = 1
+while total < n:    #0+=1=1  1+=2 = 3 
     odd += i
     i += 2
     total += 1
